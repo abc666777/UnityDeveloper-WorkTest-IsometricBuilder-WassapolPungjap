@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9096aaceffea231418d5042d4a8a160e, type: 3}
+  m_Name: Quiz5
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectSystem.StationSystem.QuizData
+  id: 4
+  quizQuestion: 5+5
+  quizAnswer:
+  - {fileID: 11400000, guid: 0aff5241fc3bbb141bd2095e67b75374, type: 2}
+  - {fileID: 11400000, guid: 5c79e970ec1c0034d914577321aa2b14, type: 2}
+  - {fileID: 11400000, guid: 029077f544e95204aa7b3c764ab05bf9, type: 2}
+  - {fileID: 11400000, guid: d64940a6ea38e654e80cfd60858b7333, type: 2}

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1fd39b73cbc05c429c9ccd154db91d1, type: 3}
+  m_Name: Recipe1
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectSystem.StationSystem.InventorySystem.RecipeData
+  itemRequired:
+  - {fileID: 11400000, guid: 5308a2602e2746d4c8992783247412be, type: 2}
+  - {fileID: 11400000, guid: 25d535bc8e5734c48ab51411da8ace0f, type: 2}
+  amountRequired: 0200000003000000
+  itemOutput: {fileID: 11400000, guid: 6156544419222264d8ff925fdab0b32f, type: 2}

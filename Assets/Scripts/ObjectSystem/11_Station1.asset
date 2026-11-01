@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4299979fcf1761c4dabeb464643397a5, type: 3}
+  m_Name: 11_Station1
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectSystem.FurnitureData
+  id: 10
+  prefab: {fileID: 3370926155035183985, guid: 5beb498f3565bde469ac0c6c65756f94, type: 3}
+  size: {x: 9, y: 5}
+  isUnique: 1
+  allowedGridType: 01000000

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78fc79301db881844913b8c26b40c225, type: 3}
+  m_Name: MixedZone
+  m_EditorClassIdentifier: Assembly-CSharp::GridSystem.AreaData
+  gridType: 1
+  tileToGenerate: {fileID: 11400000, guid: e25f6e6b7315f774f8eca1920506f028, type: 2}
+  startPos: {x: 0, y: 0}
+  endPos: {x: 9, y: 29}
