@@ -5,6 +5,7 @@ namespace ObjectSystem
 {
     public class PlacementControllerUi : MonoBehaviour
     {
+        [SerializeField] private CanvasScaler canvasScaler;
         public Button placeStationButton;
         public RectTransform editUiPanel;
         public Button placeButton;
@@ -21,16 +22,16 @@ namespace ObjectSystem
             editUiPanel.gameObject.SetActive(true);
             
             var screenPosition = Camera.main.WorldToScreenPoint(position);
-            var panelSize = editUiPanel.rect.size;
+            var panelSize = editUiPanel.rect.size * canvasScaler.scaleFactor;
             var pivot = editUiPanel.pivot;
             
             screenPosition.x += _offsetX;
             screenPosition.y += _offsetY;
             
-            if (screenPosition.x + panelSize.x * (1f - pivot.x) > Screen.width - _padding)
+            if (screenPosition.x + (panelSize.x * (1f - pivot.x)) > Screen.width - _padding)
                 screenPosition.x -= _offsetX + panelSize.x;
             
-            if (screenPosition.y + panelSize.y * (1f - pivot.y) > Screen.height - _padding)
+            if (screenPosition.y + (panelSize.y * (1f - pivot.y)) > Screen.height - _padding)
                 screenPosition.y -= (_offsetY /2f) + panelSize.y;
             
             screenPosition.x = Mathf.Clamp(screenPosition.x, _padding + panelSize.x * pivot.x, Screen.width - _padding - panelSize.x * (1f - pivot.x));
